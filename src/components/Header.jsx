@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
     return (
         <>
-            <div className="container d-flex justify-content-around align-items center mt-5">
+            <div className="container d-flex justify-content-around align-items-center mt-5">
                 <div></div>
                 <div>
                     <Link
