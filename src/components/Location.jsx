@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Gallery from "./Gallery";
 
 function Location() {
     return (
@@ -30,6 +31,9 @@ function Location() {
                     </p>
                 </div>
             </div>
+
+            <Gallery />
+
             <div className="d-flex justify-content-evenly mt-5">
                 <div>
                     <h3 className="heading">LOCATION</h3>
@@ -57,6 +61,7 @@ function Location() {
             </div>
 
             <iframe
+            className="mt-5"
                 style={{
                     border: "none",
                     filter: "grayscale(100%)",
